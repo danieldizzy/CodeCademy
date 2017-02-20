@@ -12,11 +12,13 @@ Inform the user who the winner is
 
 from time import sleep
 from random import randint
-# List
+# Creating a list 'R', 'S', 'P' and storing it as string
 options = ['R', 'S', 'P']
+# Set the win or Loose messages
 LOOSE_MESSAGE = 'You Lost!!'
 WIN_MESSAGE = 'You Won !!'
 
+# the function to decide the winner between parameters from the computer_choice and user_choice, and print some functions
 
 def decide_winner(user_choice, computer_choice):
     print('You selected : %s ' % user_choice)
@@ -57,22 +59,22 @@ play_rps()
 
 
 
-n = [3, 5, 7]
-
-
-def total(numbers):
-    result = 0
-    for i in numbers:
-        result = result + i
-    return result
-print total(n)
-
-def total1(numbers):
-    result = 0
-    for i in range (0,len(numbers)):
-        result += numbers[i]
-    return result
-print total1 (n)
+# n = [3, 5, 7]
+#
+#
+# def total(numbers):
+#     result = 0
+#     for i in numbers:
+#         result = result + i
+#     return result
+# print total(n)
+#
+# def total1(numbers):
+#     result = 0
+#     for i in range (0,len(numbers)):
+#         result += numbers[i]
+#     return result
+# print total1 (n)
 
 
 
